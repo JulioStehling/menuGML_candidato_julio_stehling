@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -26,19 +26,19 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
-    {"name":"scr_text","order":1,"path":"scripts/scr_text/scr_text.yy",},
-    {"name":"spr_wid_toggle_check","order":1,"path":"sprites/spr_wid_toggle_check/spr_wid_toggle_check.yy",},
-    {"name":"spr_wid_botao_volume_mais","order":1,"path":"sprites/spr_wid_botao_volume_mais/spr_wid_botao_volume_mais.yy",},
-    {"name":"obj_texto","order":2,"path":"objects/obj_texto/obj_texto.yy",},
-    {"name":"scr_widgets","order":2,"path":"scripts/scr_widgets/scr_widgets.yy",},
-    {"name":"spr_wid_botao_volume_menos","order":2,"path":"sprites/spr_wid_botao_volume_menos/spr_wid_botao_volume_menos.yy",},
-    {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
-    {"name":"rm_init","order":4,"path":"rooms/rm_init/rm_init.yy",},
-    {"name":"background_menu","order":1,"path":"sprites/background_menu/background_menu.yy",},
-    {"name":"obj_widget_toggle","order":2,"path":"objects/obj_widget_toggle/obj_widget_toggle.yy",},
-    {"name":"obj_widget_botao","order":1,"path":"objects/obj_widget_botao/obj_widget_botao.yy",},
+  "ResourceOrderSettings":[
     {"name":"crv_widgets","order":1,"path":"animcurves/crv_widgets/crv_widgets.yy",},
     {"name":"fnt_alternativa","order":1,"path":"fonts/fnt_alternativa/fnt_alternativa.yy",},
+    {"name":"obj_texto","order":2,"path":"objects/obj_texto/obj_texto.yy",},
+    {"name":"obj_widget_botao","order":1,"path":"objects/obj_widget_botao/obj_widget_botao.yy",},
+    {"name":"obj_widget_toggle","order":2,"path":"objects/obj_widget_toggle/obj_widget_toggle.yy",},
+    {"name":"rm_init","order":4,"path":"rooms/rm_init/rm_init.yy",},
+    {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
+    {"name":"scr_text","order":1,"path":"scripts/scr_text/scr_text.yy",},
+    {"name":"scr_widgets","order":2,"path":"scripts/scr_widgets/scr_widgets.yy",},
+    {"name":"background_menu","order":1,"path":"sprites/background_menu/background_menu.yy",},
+    {"name":"spr_wid_botao_volume_mais","order":1,"path":"sprites/spr_wid_botao_volume_mais/spr_wid_botao_volume_mais.yy",},
+    {"name":"spr_wid_botao_volume_menos","order":2,"path":"sprites/spr_wid_botao_volume_menos/spr_wid_botao_volume_menos.yy",},
+    {"name":"spr_wid_toggle_check","order":1,"path":"sprites/spr_wid_toggle_check/spr_wid_toggle_check.yy",},
   ],
 }
