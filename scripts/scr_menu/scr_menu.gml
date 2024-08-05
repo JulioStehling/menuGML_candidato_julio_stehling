@@ -40,3 +40,4 @@ function executar_funcao_widget() {
 		audio_play_sound(sfx_click, 10, false);
 	}
 }
+

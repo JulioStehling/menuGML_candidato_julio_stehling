@@ -1,4 +1,14 @@
+
+//variáveis salvas
+
 global.volume = 5;
+global.tela_cheia = false;
+
+//carregar variáveis salvas
+
+load();
+
+window_set_fullscreen(global.tela_cheia)
 
 global.wid_selec	= noone; //widget atualmente selecionado
 global.wid_ordem	= noone; //index de 'ordem de fila' do widget atualmente selecionado

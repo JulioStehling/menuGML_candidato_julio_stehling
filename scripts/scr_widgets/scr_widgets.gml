@@ -61,6 +61,7 @@ function botao_layer_main_menu(){
 
 //fechar jogo
 function botao_game_fechar(){
+	save();
 	game_end();	
 }
 
@@ -80,10 +81,11 @@ function botao_som_menos(){
 ////togggles
 function toggle_tela_cheia(){
 	wid_toggle = !wid_toggle;
-	window_set_fullscreen(wid_toggle);
+	global.tela_cheia = wid_toggle;
+	window_set_fullscreen(global.tela_cheia);
 	reset_widget_anim();
 }
 
 function toggle_check_tela_cheia(){
-	wid_toggle = window_get_fullscreen();
+	wid_toggle = global.tela_cheia;
 }

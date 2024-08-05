@@ -78,6 +78,7 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"scr_menu","path":"scripts/scr_menu/scr_menu.yy",},},
+    {"id":{"name":"scr_save_load","path":"scripts/scr_save_load/scr_save_load.yy",},},
     {"id":{"name":"scr_text","path":"scripts/scr_text/scr_text.yy",},},
     {"id":{"name":"scr_widgets","path":"scripts/scr_widgets/scr_widgets.yy",},},
     {"id":{"name":"sq_gameplay","path":"sequences/sq_gameplay/sq_gameplay.yy",},},
