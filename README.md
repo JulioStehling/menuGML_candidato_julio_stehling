@@ -76,7 +76,21 @@ v 1.5
 	
 	chamada da função "save" adicionada a função que fecha a tela de configurações
 
+Consideraçôes Finais
 
+	Infelizmente, devido à limitação da engine de não ser possível alterar as "variable definitions" 
+ 	de um objeto instanciado em uma sequence, tal como se faz em uma layer de uma room, essa nova 
+  	versão do sistema de menu requer que qualquer nova instancia de alguma widget exija que um novo 
+   	objeto seja criado no projeto, e ele seja feito "children" (filho) do widget em questão, e então,
+    	NESTE objeto específico, se alteram as devidas "variable definitions". 
+      	Apesar desta pequena inconveniência, posso afirmar por experiência pessoal, após utilizar tanto esta nova 
+       	versão do meu sistema de menus, quanto a versão antiga, em um projeto de jogo completo, que ela é vastamente 
+	superior a versão 1.0, fazendo um uso muito mais inteligente dos recursos da engine, e sendo muito mais 
+ 	fácil de manter e escalar, além de proporcionar opções de animação das telas de menu como um todo quando 
+  	elas são instanciadas, algo que não era possível na versão anterior.
+ 	Também adiciono que a inconveniência de se ter que criar um novo objeto para cada nova instância de widget 
+  	possa vir a ser facilmente superada, na eventualidade de uma atualização da engine em que a Yoyo passe a 
+   	permitir que as "variable definitions" possam ser editadas também em instâncias objetos em sequences.
 
 
 
@@ -161,3 +175,21 @@ v 1.4
 v 1.5
 	
 	save function call added to the function that saves the config screen
+
+ Final Toughts
+
+ 	Unfortunately, due to the engine's limitation of it not being possible to alter an object's 
+  	"variable definitions" in a sequence, as one would in any other instance of that object, this
+   	new version of the menu system demands that any new instance of any "widget" object is to be 
+    	created instead as a brand new object, that is then made "children" of the specific widget, 
+     	and THEN have it's "variable definitions" altered.
+	Despite this minor inconvenience, I can safely say through personal experience, after 
+ 	utilizing both the first AND current versions of my menu system in a full game project, that 
+  	the current iteration is vastly superior to version 1.0. It makes smarter usage of the engine's 
+   	resources, is easier to maintain and scale, and topps it off by providing animation options for 
+    	menu screens as a whole when they are instanced, something that was not possible in the 
+     	previous version.
+	I'd also add that the inconvenience of having to create a new object for every new instance of a 
+ 	given widget may be easily overcome in the future, if Yoyo Games eventually releases an update that 
+  	allows you to edit "variable definitions" in an instance of an object that exists inside of a 
+   	sequence.
