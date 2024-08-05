@@ -27,18 +27,36 @@ function botao_room_menu(){
 
 //mudar de submenu
 function botao_layer_configuracoes(){
-	instance_activate_layer("layer_config");
-	instance_deactivate_layer(layer);
+	with obj_menu {
+		var cur_seq = sequence_id;
+		sequence_id = layer_sequence_create("GAMECONTROL", display_get_gui_width()/2, 
+			display_get_gui_height()/2, sq_menu_config);
+			
+		layer_sequence_destroy(cur_seq);
+		
+	}
 }
 
 function botao_layer_sair(){
-	instance_activate_layer("layer_sair");
-	instance_deactivate_layer(layer);
+	with obj_menu {
+		var cur_seq = sequence_id;
+		sequence_id = layer_sequence_create("GAMECONTROL", display_get_gui_width()/2, 
+			display_get_gui_height()/2, sq_menu_quit);
+			
+		layer_sequence_destroy(cur_seq);
+		
+	}
 }
 
 function botao_layer_main_menu(){
-	instance_activate_layer("layer_main_menu");
-	instance_deactivate_layer(layer);
+	with obj_menu {
+		var cur_seq = sequence_id;
+		sequence_id = layer_sequence_create("GAMECONTROL", display_get_gui_width()/2, 
+			display_get_gui_height()/2, sq_menu_main);
+			
+		layer_sequence_destroy(cur_seq);
+		
+	}
 }
 
 //fechar jogo

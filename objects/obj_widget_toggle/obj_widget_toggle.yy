@@ -2,17 +2,16 @@
   "$GMObject":"",
   "%Name":"obj_widget_toggle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_widget_toggle",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_par_widget","path":"objects/obj_par_widget/obj_par_widget.yy",},"propertyId":{"name":"sprite","path":"objects/obj_par_widget/obj_par_widget.yy",},"resource":{"name":"spr_wid_toggle","path":"sprites/spr_wid_toggle/spr_wid_toggle.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_wid_toggle",},
-  ],
+  "overriddenProperties":[],
   "parent":{
-    "name":"widgets",
-    "path":"folders/Objects/menu/widgets.yy",
+    "name":"parents",
+    "path":"folders/Objects/menu/widgets/parents.yy",
   },
   "parentObjectId":{
     "name":"obj_par_widget",

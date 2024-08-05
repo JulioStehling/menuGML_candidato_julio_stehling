@@ -1,6 +1,3 @@
-//regula delta time para o restante do jogo
-global.delta_time = delta_time / 1000000;
-
 manejo_de_input();
 
 
@@ -8,7 +5,7 @@ manejo_de_input();
 if input_atual == MOUSE {
 	
 	//checa se o mouse está sobre um widget, e se não, reseta os valores que armazenam o widget atual
-	global.wid_selec = collision_point(mouse_x, mouse_y, obj_par_widget, false, true);
+	global.wid_selec = instance_position( device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), obj_par_widget);
 	if global.wid_selec == noone global.wid_ordem = noone;
 	
 	//executa a função do widget atualmente selecionado pelo MOUSE caso haja um clique

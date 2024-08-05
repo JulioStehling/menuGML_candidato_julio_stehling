@@ -1,12 +1,9 @@
-//é necessário criar uma layer separada para cada submenu do menu principal
-//e então desabilita-las ao iniciar a sala
+//instancia a sequence de main menu na sala de menu
 
-//tornar as layers visíveis serve apenas para facilitar a manipulação 
-//da sua visibilidade por parte do designer, mas não é necessário
-layer_set_visible("layer_config",		true);
-layer_set_visible("layer_sair",			true);
-layer_set_visible("layer_main_menu",	true);
+with obj_menu sequence_id = layer_sequence_create(
+	"GAMECONTROL", 
+	display_get_gui_width()/2,
+	display_get_gui_height()/2,
+	sq_menu_main
+);
 
-
-instance_deactivate_layer("layer_config");
-instance_deactivate_layer("layer_sair");
