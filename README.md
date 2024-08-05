@@ -64,6 +64,21 @@ v 1.2
 		Todo o draw event dos objetos foi mudado para o evento draw GUI, permitindo que os botões
 	permaneçam fixos nas posições corretas independente da posição da câmera do jogo.
 
+v 1.3
+	
+	tamanho das sprites ajustado
+
+v 1.4
+
+	sistema de save simples adicionado ao projeto
+
+v 1.5
+	
+	chamada da função "save" adicionada a função que fecha a tela de configurações
+
+
+
+
 
 
 
@@ -124,6 +139,7 @@ v 1.1
 	system) is a menu system that instances its UI objects through the engine's sequence system.
 
 v 1.2
+
 		The menu system now uses the engine's sequence system:
 
 	When creating a new menu screen, it is necessary to create a new sequence and a function that
@@ -134,5 +150,14 @@ v 1.2
 	All the drawing of the objects is now handled by the draw GUI event, allowing the buttons to
 	remain fixed in the correct positions independent of the game's camera position.
 
+v 1.3
+	
+	sprites size adjusted
 
+v 1.4
 
+	simple save system added to the project
+
+v 1.5
+	
+	save function call added to the function that saves the config screen

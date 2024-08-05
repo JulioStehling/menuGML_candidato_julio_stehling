@@ -55,7 +55,7 @@ function botao_layer_main_menu(){
 			display_get_gui_height()/2, sq_menu_main);
 			
 		layer_sequence_destroy(cur_seq);
-		
+		save();
 	}
 }
 
